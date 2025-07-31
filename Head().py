@@ -16,5 +16,13 @@ print("Student Records \n", df)
 
 
 
-# It will print only 5 row
+# It will print only 5 row by default
 print("\n First 5 row: \n ", df.head())
+
+
+# It will print only 3 row
+print("\n First 3 row: \n ", df.head(3))
+
+
+# It will print only 6 row
+print("\n First 6 row: \n ", df.head(6))
